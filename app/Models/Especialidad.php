@@ -4,17 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class Especialidad extends Model
 {
-    protected $table = 'usuarios';
+    protected $table = 'especialidades';
 
     protected $fillable = [
-        'nombre_usuario',
-        'correo',
-        'clave',
-        'nombre_completo',
-        'estado',
-        'ultimo_ingreso_at',
+        'codigo',
+        'nombre',
+        'descripcion',
     ];
 
     public const CREATED_AT = 'creado_en';
