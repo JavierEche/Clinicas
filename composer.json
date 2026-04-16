@@ -1,0 +1,13 @@
+{
+    "name": "clinic-erp/clinic-erp",
+    "description": "Base structure for Clinic ERP Laravel project.",
+    "type": "project",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
